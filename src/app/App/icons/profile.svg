@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>D10F9DB9-1F0B-4ECB-9BD6-85419DB1D8DF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M28,18 C28,21.3141644 25.3137755,24 22,24 C18.6862245,24 16,21.3141644 16,18 C16,14.6858356 18.6862245,12 22,12 C25.3137755,12 28,14.6858356 28,18 L28,18 Z M32,32 C31.4465924,27.9938955 27.1814413,25 22.0004658,25 C16.8185587,25 12.5534076,27.9938955 12,32 L32,32 L32,32 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-30.000000, -78.000000)" stroke-width="4" stroke="#2D2D2D">
+            <g id="Navigation">
+                <g id="DIRECTIONAL" transform="translate(18.000000, 34.000000)">
+                    <g id="Directional" transform="translate(0.000000, 32.000000)">
+                        <g id="Account">
+                            <g id="icon_account_selected">
+                                <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

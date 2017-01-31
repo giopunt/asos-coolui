@@ -1,0 +1,11 @@
+.Search {
+  align-content: flex-start;
+  align-items: stretch;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}

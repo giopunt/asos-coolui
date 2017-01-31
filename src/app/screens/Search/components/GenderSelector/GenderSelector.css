@@ -1,0 +1,29 @@
+.GenderSelector {
+  border-bottom: 1px solid #f2f2f2;
+  box-sizing: border-box;
+}
+
+.GenderSelector ul li {
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 50%;
+  display: table;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid #f2f2f2;
+  padding: 10px;
+  opacity: 0.5;
+  -webkit-appearance: none;
+}
+
+.GenderSelector ul li.active {
+  opacity: 1;
+  border-bottom: 2px solid #000;
+}
+
+.GenderSelector ul li:last-of-type {
+  border-right: 0;
+  float: right;
+}

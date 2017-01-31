@@ -1,0 +1,34 @@
+.Nav {
+  position: fixed;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.Nav ul li {
+  width: 20%;
+  float: left;
+}
+
+.Nav ul li img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.Nav ul li a {
+    padding-top: 10px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+}
+
+.Nav ul li a.active img {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+}

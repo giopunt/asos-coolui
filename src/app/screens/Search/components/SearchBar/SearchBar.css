@@ -1,0 +1,50 @@
+.SearchBar {
+  margin: 10px 15px;
+  position: relative;
+  background: #f2f2f2;
+}
+
+.SearchBar input {
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  height: 30px;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  text-indent: 7px;
+}
+
+.SearchBar input + .placeholder {
+  position: absolute;
+  font-size: 16px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #333;
+  transition: all 0.2s ease-in;
+  pointer-events: none;
+  background: none !important;
+}
+
+.SearchBar input + .placeholder img {
+  position: absolute;
+  left: -25px;
+  top: -3px;
+  opacity: 1;
+  transition: all 0.2s ease-in;
+  width: 20px;
+}
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.SearchBar input:focus + .placeholder {
+  color: #666;
+  left: 10px;
+  transform: translateX(0%) translateY(-50%);
+}
+
+.SearchBar input:focus + .placeholder img {
+  opacity: 0;
+}
